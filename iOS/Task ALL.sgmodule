@@ -1,0 +1,67 @@
+#!name=Task ALL
+#!desc=该模块适用于定时签到:集成全部: NobyDa、Chavy以及个人收集常用签到脚本。建议本地安装以便自定义修改签到时间。
+
+# Task配置 By nzw9314
+# GitHub主页(https://github.com/nzw9314)
+# TG通知频道 (https://t.me/nzw9314News)
+# 定时脚本
+
+[Script]
+# 签到脚本
+
+#  NobyDa
+# > 京东
+京东 = type=cron,cronexp=30 31 7 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+# > 爱奇艺
+爱奇艺 = type=cron,cronexp=10 30 7 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
+# > 吾爱破解
+吾爱破解 = type=cron,cronexp=15 30 7 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
+# > 百度贴吧
+# 打开App,点击'我的'
+百度贴吧(客户端) = type=cron,cronexp=20 30 7 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,script-update-interval=0
+
+# @chavyleung
+# 威锋网
+# 打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)`
+威锋 = type=cron,cronexp=30 30 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,script-update-interval=0
+
+# 飞客茶馆
+# 打开 APP, 访问下`个人中心`
+飞客茶馆 = type=cron,cronexp=35 30 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js,script-update-interval=0
+
+# 网易云音乐
+# 浏览器访问并登录: https://music.163.com/m/login
+网易云音乐 = type=cron,cronexp=40 30 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0
+
+# 去哪儿
+# 打开 APP 然后手动签到 1 次
+去哪儿 = type=cron,cronexp=45 30 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js,script-update-interval=0
+
+# 顺丰速运
+# 打开 APP, 访问下`我的顺丰` > `去签到` (访问下`去签到`的页面即可, 不用点`签到`)
+# 打开 APP或小程序, 访问下`27周年庆`
+顺丰速运 = type=cron,cronexp=50 30 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0
+
+# V2EX
+# 浏览器打开https://www.v2ex.com/mission/daily ，待弹出获取成功即可
+v2ex.js = type=cron,cronexp=55 30 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js,script-update-interval=0
+
+# 腾讯视频
+# 1.手机浏览器访问并登录: https://film.qq.com/
+腾讯视频 = type=cron,cronexp=0 31 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
+
+# 喜马拉雅
+# 打开 APP, 访问下右下角`账号`
+喜马拉雅 = type=cron,cronexp=5 31 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,script-update-interval=0
+
+# 芒果TV
+# 打开 APP 然后手动签到 1 次
+芒果TV = type=cron,cronexp=15 31 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js,script-update-interval=0
+
+# 樊登读书
+# 打开 APP 手动签到一次: 访问下右下角 `我的` > `签到`
+樊登读书 = type=cron,cronexp=20 31 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.js,script-update-interval=0
+
+# 哈啰出行
+# 打开 APP 进入签到页面:  `我的` > `有哈有车`
+哈啰出行 = type=cron,cronexp=25 31 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,script-update-interval=0
